@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="6.0">
+	<display-name>BookHeaven</display-name>
+	<welcome-file-list>
+		<welcome-file>loginfuncionario.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

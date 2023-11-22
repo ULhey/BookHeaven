@@ -1,0 +1,168 @@
+@charset "ISO-8859-1";
+
+.form-container {
+	max-width: 550px;
+	padding: 1rem;
+}
+
+table {
+	height: 100px;
+	overflow-y: scroll;
+	scrollbar-width: none;
+}
+
+table::-webkit-scrollbar {
+	width: 1px;
+}
+
+.navbar .nav-link {
+	font-size: 20px;
+}
+
+.extended-underline {
+	display: inline;
+	position: relative;
+}
+
+.extended-underline::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 280%;
+	bottom: -2px;
+	border-bottom: 2px solid #000;
+}
+
+
+
+
+.sinopse {
+	height: 80px;
+	overflow-y: scroll;
+	scrollbar-width: none;
+}
+
+.sinopse::-webkit-scrollbar {
+	width: 1px;
+}
+
+.lista {
+	width: 100%;
+	display: flex;
+}
+
+.sublinhado {
+	border-bottom: 2px solid black;
+}
+
+.formPai {
+	margin: auto;
+	width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+	.formPai {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.formPai {
+		margin: none;
+		width: 80%;
+	}
+	.cartao {
+		float: left;
+		margin-left: .5%;
+		margin-right: .5%;
+		width: 49%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.formPai {
+		margin: none;
+		width: 100%;
+	}
+	.cartao {
+		float: left;
+		margin-left: .5%;
+		margin-right: .5%;
+		width: 24%;
+	}
+}
+
+.list-group-item {
+	margin-right: 30px;
+}
+
+        #paymentModal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        
+        
+.sinopse {
+	height: 80px;
+	overflow-y: scroll;
+	scrollbar-width: none;
+}
+
+.sinopse::-webkit-scrollbar {
+	width: 1px;
+}
+
+.lista {
+	width: 100%;
+	display: flex;
+}
+
+.sublinhado {
+	border-bottom: 2px solid black;
+}
+
+.formPai {
+	margin: auto;
+	width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+	.formPai {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.formPai {
+		margin: none;
+		width: 80%;
+	}
+	.cartao{
+		float: left;
+		margin-left: .5%; 
+		margin-right: .5%; 
+		width: 49%; 
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.formPai {
+		margin: none;
+		width: 100%;
+	}
+	.cartao{
+		float: left;
+		margin-left: .5%; 
+		margin-right: .5%; 
+		width: 24%; 
+	}
+}
